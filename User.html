@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User_page</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/384684e39d.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">
+          <img src="logo.png" alt="logo">
+        </div>
+
+        <div class="moreinfo">
+            <div type="button" onclick="slide()"> Me </div>
+        </div>
+
+        <div id="log_out">
+            <a href="https://www.google.com">Log out</a>
+        </div>
+        
+      </header>
+
+    
+    <!--划出页面，个人信息-->
+    <div id="slide_page"> 
+        <button type="button" class="close_slide_button" onclick="close_slide()">close</button>
+
+        <div class="userinfo">
+            <a href="https://google.com" class="people_name">
+                <div class="circle">
+                    <div class="name_of_user">LL</div>
+                </div>
+            </a>
+            
+            <div id="student_id"><p>Student ID ********</p></div>
+
+        </div>
+
+        <hr/>
+
+        <div class="contact_person">
+
+            <div class="button">
+                <a class="friend" href="#">
+                <p>friend1</p>
+                </a>
+            </div>
+
+            <div class="button">
+                <a class="friend" href="#">
+                <p>friend2</p>
+                </a>
+            </div>
+        </div>
+
+        <hr/>
+
+        <div class="clubs">
+            <div class="button">
+                    <a class="club" href="#">
+                    <p>club1</p>
+                    </a>
+            </div>
+
+            <div class="button">
+                <a class="club" href="#">
+                <p>club2</p>
+                </a>
+            </div>
+
+            <div class="button">
+                <a class="club" href="#">
+                <p>club3</p>
+                </a>
+            </div>
+
+            <div class="button">
+                <a class="club" href="#">
+                <p>club4</p>
+                </a>
+            </div>
+        </div>
+
+       
+    </div>
+
+        <!--单击每个event会跳转到发布event的club-->
+        <a href="https://www.google.com">
+            <div class="event">
+                <p>Event1</p>
+            </div>
+        </a>
+        
+        <a href="https://www.google.com">
+            <div class="event">
+                <p>Event2</p>
+            </div>
+        </a>
+
+        
+
+    <script src="User_and_Club.js"></script>
+    
+</body>
+</html>
+
